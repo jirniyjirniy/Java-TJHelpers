@@ -17,10 +17,6 @@ public class Student {
         this.grades = new ArrayList<>(grades);
     }
 
-    public void addGrade(int grade) {
-        grades.add(grade);
-    }
-
     public void calculateAverageGrade(){
         float avg, sum = 0;
         for (Integer grade : grades) {
